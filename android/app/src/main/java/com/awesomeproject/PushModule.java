@@ -32,7 +32,7 @@ public class PushModule extends ReactContextBaseJavaModule {
         JSONObject jsonObject = new JSONObject();
         try {
             jsonObject.put("deviceToken",deviceToken);
-            jsonObject.put("deviceName","2882303761517520571");
+            jsonObject.put("deviceName","这里是证书名称");
 
         } catch (JSONException e) {
             throw new RuntimeException(e);

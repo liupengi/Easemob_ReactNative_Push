@@ -31,9 +31,9 @@ const App = () => {
     console.log('React Native界面,收到数据：',goosid);
 
 })
-  const [appKey, setAppKey] = React.useState('1137220225110285#demo');
-  const [username, setUsername] = React.useState('p9');
-  const [password, setPassword] = React.useState('1');
+  const [appKey, setAppKey] = React.useState('');
+  const [username, setUsername] = React.useState('');
+  const [password, setPassword] = React.useState('');
   const [userId, setUserId] = React.useState('');
   const [content, setContent] = React.useState('');
   const [logText, setWarnText] = React.useState('Show log area');
